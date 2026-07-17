@@ -1,0 +1,104 @@
+{
+  "exams": [
+    {
+      "id": "exam_v6qww20d5",
+      "title": "Unit-Test 1",
+      "description": "",
+      "date": "2026-07-20",
+      "createdAt": "2026-07-17T10:20:01.596Z"
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic_csl0c654y",
+      "examId": "exam_v6qww20d5",
+      "title": "DV syllabus",
+      "priority": "low",
+      "status": "reviewing",
+      "createdAt": "2026-07-17T10:20:17.031Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": "material_kzb5veidc",
+      "topicId": "topic_csl0c654y",
+      "name": "DVsyllabus.jpg",
+      "fileType": "image",
+      "originalText": "[Transcribed Image Notes]",
+      "summary": "This comprehensive curriculum covers the complete spectrum of Data Visualization. Unit I-III establish the foundational elements, including data types, preprocessing, Bertin's semiology (the eight visual variables), Gibson's Affordance theory, and spatial/multivariate/hierarchical visualization techniques. Units IV-VI transition into tool-based execution (Tableau and Johosheet), advanced interaction techniques (interaction operators and spaces such as Screen, Object, Data, Attribute, and Data Structure spaces), Text/Document Visualization (Vector Space Model), and modern trends including Virtual Reality, Tactile Maps, and Interactive Medical applications.",
+      "keyPoints": [
+        "Bertin's Semiology of Graphical Symbols: Classifies the 8 visual variables used to encode data: Position, Size, Shape, Value (lightness), Color (hue), Orientation, Texture, and Perspective/Arrangement.",
+        "Gibson's Affordance Theory: Proposes that the physical properties of an interface or visual representation should directly suggest its utility or action to the observer.",
+        "Interaction Spaces: Classified into Screen-Space (pixels), Object-Space (3D geometries), Data Space (raw dimensions), Attribute Space (characteristics/metadata), and Data Structure Space (hierarchies/graphs).",
+        "Vector Space Model (VSM): Key framework in text visualization where documents are represented as high-dimensional vectors of term frequencies to calculate semantic similarity.",
+        "Multivariate vs. Spatial Data: Spatial data inherently relies on physical coordinates (1D, 2D, 3D, and geospatial point/line/area), whereas multivariate data encodes non-spatial parameters using point, line, and region-based techniques."
+      ],
+      "flashcards": [
+        {
+          "id": "fc_1784283646994_0",
+          "question": "What are the eight primary visual variables identified in graphical semiology?",
+          "answer": "Position, Size, Shape, Value, Color, Orientation, Texture, and Perspective."
+        },
+        {
+          "id": "fc_1784283646995_1",
+          "question": "Explain Gibson's Affordance Theory in the context of visualization design.",
+          "answer": "It states that visual elements should intuitively reveal how to interact with them (e.g., a button design should visually invite clicking) without training."
+        },
+        {
+          "id": "fc_1784283646995_2",
+          "question": "What is the difference between Data Space and Attribute Space interaction?",
+          "answer": "Data Space interaction manipulates the physical coordinates or ranges of the raw data, whereas Attribute Space interaction manipulates characteristics, dimensions, or categorical metadata associated with that data."
+        },
+        {
+          "id": "fc_1784283646995_3",
+          "question": "How does the Vector Space Model represent text documents for visualization?",
+          "answer": "It converts text documents into high-dimensional numerical vectors where each dimension corresponds to a unique term, allowing algebraic manipulation and similarity distance calculations."
+        },
+        {
+          "id": "fc_1784283646995_4",
+          "question": "What is the primary function of Johosheet in the Unit IV workflow?",
+          "answer": "It is an online spreadsheet tool integrated to import, clean, and manipulate data from a variety of sources for in-depth analysis prior to or alongside visualization."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "qz_1784283646995_0",
+          "question": "Which of the following interaction spaces focuses on direct manipulation of 3D geometry and spatial transformations of objects?",
+          "options": [
+            "Screen-Space",
+            "Object-Space",
+            "Data Space",
+            "Attribute Space"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "Object-space interaction focuses on the geometric representations of items in virtual 3D environments, whereas Screen-space is pixel-bound, and Data/Attribute spaces deal with internal numerical parameters."
+        },
+        {
+          "id": "qz_1784283646995_1",
+          "question": "According to Bertin's Semiology of Graphical Symbols, which visual variable is generally most effective for encoding quantitative (numerical) data?",
+          "options": [
+            "Shape",
+            "Color (Hue)",
+            "Position",
+            "Texture"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Position (and secondarily Size) are mathematically proven to be the most accurate visual variables for human perception of quantitative data, while variables like Shape and Hue are best suited for nominal or categorical data."
+        },
+        {
+          "id": "qz_1784283646995_2",
+          "question": "In geospatial data visualization, how are boundaries of regions (such as countries or states) classified?",
+          "options": [
+            "Point Data",
+            "Line Data",
+            "Area Data",
+            "Nonspatial Data"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Regional boundaries and internal zones represent geographic areas with defined boundaries, classified specifically as Area Data, whereas paths represent Line Data, and precise locations represent Point Data."
+        }
+      ],
+      "createdAt": "2026-07-17T10:20:46.995Z"
+    }
+  ]
+}

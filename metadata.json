@@ -1,0 +1,6 @@
+{
+  "name": "Last-Minute Exam Revision AI",
+  "description": "An AI-powered web app for last-minute study revision. Upload your notes, photos, or documents to instantly generate structured summaries, interactive flashcards, and quick self-test quizzes for missed topics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
